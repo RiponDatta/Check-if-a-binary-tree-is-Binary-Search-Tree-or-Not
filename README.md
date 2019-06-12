@@ -4,11 +4,6 @@ A Binary Tree is a Binary Search Tree <br/>
   if the right subtree contains greater then parent node's value.
 ## Algorithm
 ```CSharp
-bool IsBST(Node node)
-{
-  return IsBST(node, int.MinValue, int.MaxValue);
-}
-
 bool IsBST(Node node, int min, int max)
 {
   return IsBST(node.Left, min, node.Data - 1) 
