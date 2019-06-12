@@ -1,7 +1,7 @@
 # Check if a binary tree is Binary Search Tree or Not
 A Binary Tree is a Binary Search Tree <br/>
-  if left subtree contains less or equal to parent node's value and <br/>
-  if right subtree contains greater then parent node's value.
+  if left subtree contains less or equal to the parent node's value and <br/>
+  if the right subtree contains greater then parent node's value.
 ## Algorithm
 ```CSharp
 bool IsBST(Node node)
